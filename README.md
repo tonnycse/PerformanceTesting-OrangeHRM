@@ -29,7 +29,7 @@ The primary goal of this project is to ensure the stability of the OrangeHRM app
 ## Test Setup
 
 ### 1. **Thread Group Configuration**
-- **Number of Threads**: 10.
+- **Number of Threads**: 10, 20, 30.
 - **Ramp-Up Period**: 10 seconds.
 - **Loop Count**: 1.
 

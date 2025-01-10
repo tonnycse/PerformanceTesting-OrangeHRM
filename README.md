@@ -81,7 +81,7 @@ The primary goal of this project is to ensure the stability of the OrangeHRM app
 
 ## How to make Reports
 
-- Save the .jmx file in bin foulder
+- Save the .jmx file in bin folder
 - Create a report folder
 - Open with JMeter
 - Run Command:

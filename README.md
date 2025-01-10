@@ -85,9 +85,9 @@ The primary goal of this project is to ensure the stability of the OrangeHRM app
 - Create a report folder
 - Open with JMeter
 - Run Command:
-jmeter -n -t filename.jmx -l report\filename.jtl
+                                                                jmeter -n -t filename.jmx -l report\filename.jtl
 - Run Command for Report:
-jmeter -g report\filename.jtl -o report\filename.html
+                                                                jmeter -g report\filename.jtl -o report\filename.html
 
 
 

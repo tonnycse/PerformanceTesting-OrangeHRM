@@ -86,8 +86,10 @@ The primary goal of this project is to ensure the stability of the OrangeHRM app
 jmeter -n -t filename.jmx -l report\filename.jtl
 </pre>
    - For HTML Report:
-```bash
+<pre>
 jmeter -g report\filename.jtl -o report\filename.html
+</pre>
+
 
 
 

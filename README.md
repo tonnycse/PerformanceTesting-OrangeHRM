@@ -83,10 +83,10 @@ The primary goal of this project is to ensure the stability of the OrangeHRM app
 - Open the `.jmx` file with JMeter to confirm the setup.
 - Execute the following commands:
 - Run Command:
-``bash
+```bash
 jmeter -n -t filename.jmx -l report\filename.jtl
 - Run Command for Report:
-``bash
+```bash
 jmeter -g report\filename.jtl -o report\filename.html
 
 

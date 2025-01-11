@@ -78,17 +78,22 @@ The primary goal of this project is to ensure the stability of the OrangeHRM app
    - View test results using listeners like **Aggregate Report**, **Graph Results**, etc.
 
 4. **Generate Report**:
-- Save the `.jmx` file in the `bin` folder.
-- Create a `report` folder to store the results.
-- Open the `.jmx` file with JMeter to confirm the setup.
-- Execute the following commands:
-- Run Command:
+
+## How to Run This Project
+
+1. Save the `.jmx` file in the `bin` folder.
+2. Create a `report` folder to store the results.
+3. Open the `.jmx` file with JMeter to confirm the setup.
+4. Execute the following commands:
+
+### Run Command
 ```bash
 jmeter -n -t filename.jmx -l report\filename.jtl
-- Run Command for Report:
-```bash
+Generate Report
+bash
+Copy code
 jmeter -g report\filename.jtl -o report\filename.html
-
+Open the report\filename.html in a browser to view the detailed performance test report.
 
 
 

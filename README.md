@@ -61,31 +61,31 @@ The primary goal of this project is to ensure the stability of the OrangeHRM app
 ## How to Run the Tests
 
 1. **Prerequisites**:
-   - Install JAVA on your system.
-   - Install JMeter on your system.
-   - Install BlazeMeter Plugin.
+- Install JAVA on your system.
+- Install JMeter on your system.
+- Install BlazeMeter Plugin.
 
 2. **Setup**:
-   - Import the `.jmx` file for the test plan.
-   - Configure thread groups and parameters as per your requirement.
+- Import the `.jmx` file for the test plan.
+- Configure thread groups and parameters as per your requirement.
 
 3. **Execute the Test**:
-   - Open JMeter.
-   - Load the test plan.
-   - Click **Start** to execute the test.
+- Open JMeter.
+- Load the test plan.
+- Click **Start** to execute the test.
      
 4. **Analyze Results**:
-   - View test results using listeners like **Aggregate Report**, **Graph Results**, etc.
+- View test results using listeners like **Aggregate Report**, **Graph Results**, etc.
      
 5. **Generate Report**
-   - Save the `.jmx` file in the `bin` folder.
-   - Create a `report` folder to store the results.
-   - Open the `.jmx` file with JMeter to confirm the setup.
-   - Execute the following command:
+- Save the `.jmx` file in the `bin` folder.
+- Create a `report` folder to store the results.
+- Open the `.jmx` file with JMeter to confirm the setup.
+- Execute the following command:
 <pre>
 jmeter -n -t filename.jmx -l report\filename.jtl
 </pre>
-   - For HTML Report:
+- For HTML Report:
 <pre>
 jmeter -g report\filename.jtl -o report\filename.html
 </pre>

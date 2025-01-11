@@ -74,9 +74,6 @@ The primary goal of this project is to ensure the stability of the OrangeHRM app
    - Load the test plan.
    - Click **Start** to execute the test.
 
-4. **Analyze Results**:
-   - View test results using listeners like **Aggregate Report**, **Graph Results**, etc.
-
 4. **Generate Report**
 - Save the `.jmx` file in the `bin` folder.
 - Create a `report` folder to store the results.
@@ -84,6 +81,11 @@ The primary goal of this project is to ensure the stability of the OrangeHRM app
 - Execute the following command:
 ```bash
 jmeter -n -t filename.jmx -l report\filename.jtl
+
+4. **Analyze Results**:
+   - View test results using listeners like **Aggregate Report**, **Graph Results**, etc.
+
+
 
 
 

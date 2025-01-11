@@ -73,17 +73,19 @@ The primary goal of this project is to ensure the stability of the OrangeHRM app
    - Open JMeter.
    - Load the test plan.
    - Click **Start** to execute the test.
-
-4. **Generate Report**
-- Save the `.jmx` file in the `bin` folder.
-- Create a `report` folder to store the results.
-- Open the `.jmx` file with JMeter to confirm the setup.
-- Execute the following command:
-```
-jmeter -n -t filename.jmx -l report\filename.jtl
-
+     
 4. **Analyze Results**:
    - View test results using listeners like **Aggregate Report**, **Graph Results**, etc.
+     
+4. **Generate Report**
+   - Save the `.jmx` file in the `bin` folder.
+   - Create a `report` folder to store the results.
+   - Open the `.jmx` file with JMeter to confirm the setup.
+   - Execute the following command:
+`jmeter -n -t filename.jmx -l report\filename.jtl`
+
+
+
 
 
 
